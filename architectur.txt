@@ -1,0 +1,3 @@
+High level architectural overview
+
+Docker Container is pulled down locally --> Ansible then creates the EC2 instance --> The Docker image is copied to the EC2 instance --> The conatiner is ran and is hosted with the public AWS environment. 

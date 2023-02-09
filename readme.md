@@ -14,6 +14,11 @@
 [license-badge]: https://img.shields.io/github/license/Servian/TechChallengeApp.svg?style=flat
 [license]: https://github.com/Servian/TechChallengeApp/license
 
+## Deploy Container to AWS
+
+Run the following command:
+ansible-playbook deploy.yml
+
 ## Overview
 
 This is the Servian DevOps Tech challenge. It uses a simple application to help measure a candidate's technical capability and fit with Servian. The application itself is a simple GTD Golang application that is backed by a Postgres database.
